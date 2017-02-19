@@ -1,4 +1,4 @@
-#bg {
+/*#bg {
     text-align: center;
     background-image: url("../ip2/assets/backgrounds/landing.jpg");
     color: white;
@@ -34,4 +34,7 @@
 }
 #bg1 {
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+}*/
+.bg1 {
+background-image: url("../ip2/assets/backgrounds/landing.jpg"); 
 }

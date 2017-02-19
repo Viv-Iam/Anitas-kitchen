@@ -39,15 +39,24 @@
 * {
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 .sec1 {
 text-align: center;/*why did text move with logo*/
 background-image: url("../ip2/assets/backgrounds/landing.jpg");
 background-position: center;
+color: white;
 
 }
-#pic1 {
-
+.sec2 {
+  text-align: center;
+}
+.sec3 {
+padding-top: 100px;
+}
+.sec4 {
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .border {
   border: 2px;
@@ -55,8 +64,56 @@ background-position: center;
   border-color: red;
   color: red;
   padding: 5px;
-  width: 100px;
+  width: 200px;
+  text-align: center;
+}
+#pic1 {
+  border-color: white;
+  border-style: solid;
+  border-width: 20px 5px 20px 1px;
+  box-shadow: 0px 0px 10px #000000;
+  padding-left: 50px;
+}
+#pic2 {
+  border-color: white;
+  border-style: solid;
+  border-width: 20px 5px 20px 10px;
+  box-shadow: 0px 0px 10px #000000;
+  padding-left: 50px;
+
 }
 #txt2 {
 padding-left: 200px;
+}
+#txt3 {
+  text-align: center;
+}
+.sec5 {
+  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+}
+.sec6 {
+  text-align: center;
+  border: 1px;
+  outline-style: outset;
+  outline-color: grey;
+}
+.txt {
+  text-align: center;
+}
+.sec7 {
+  text-align: center;
+  background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
+  color: white;
+  height: 300px;
+}
+.sec8 {
+  text-align: center;
+  background-color: #F15A29;
+  color: white;
+}
+.sub {
+  background-color: #F15A29;
+}
+.jumbotron {
+  margin-bottom: 0px;
 }

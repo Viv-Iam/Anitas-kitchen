@@ -35,6 +35,28 @@
 #bg1 {
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
 }*/
-.bg1 {
-background-image: url("../ip2/assets/backgrounds/landing.jpg"); 
+/*Set margin and padding at 0 so that i can work on clean slate*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.sec1 {
+text-align: center;/*why did text move with logo*/
+background-image: url("../ip2/assets/backgrounds/landing.jpg");
+background-position: center;
+
+}
+#pic1 {
+
+}
+.border {
+  border: 2px;
+  border-style: solid;
+  border-color: red;
+  color: red;
+  padding: 5px;
+  width: 100px;
+}
+#txt2 {
+padding-left: 200px;
 }

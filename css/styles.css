@@ -35,136 +35,172 @@
 #bg1 {
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
 }*/
+
+
 /*Set margin and padding at 0 so that i can work on clean slate*/
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+.jumbotron {
+    margin-bottom: 0px;
+    width: 100%
+}
+
+.navbar {
+  background: inherit;
+}
+/*.nav {
+  display: none;
+}*/
+
 .sec1 {
-text-align: center;/*why did text move with logo*/
-background-image: url("../ip2/assets/backgrounds/landing.jpg");
-color: white;
-width: 100%
+    text-align: center;
+    /*why did text move with logo*/
+    background-image: url("../ip2/assets/backgrounds/landing.jpg");
+    color: white;
+    width: 100%
 }
-.table1{
-  border-style: hidden;
-  clear: none;
-  height: 210px;
-  width: 25%;
+
+.table1 {
+    border-style: hidden;
+    clear: none;
+    height: 210px;
+    width: 25%;
 }
+
 #hhour {
-  background-color: #eee;
-  text-align: center;
-
+    background-color: #eee;
+    text-align: center;
 }
+
 #ptime {
-  border-top: 2px;
-  border-style: hidden;
-  background-color: #F15A29;
-  text-align: center;
+    border-top: 2px;
+    border-style: hidden;
+    background-color: #F15A29;
+    text-align: center;
+}
 
-}
 #breakfast {
-  background-image: url("../ip2/assets/foodtop/breakfast.jpg");
-  height: 210px;
-  text-align: center;
-  color: white;
-  width: 25%;
-  padding-top: 100px;
+    background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+    height: 210px;
+    text-align: center;
+    color: white;
+    width: 25%;
+    padding-top: 100px;
 }
+
 #lunch {
-  background-image: url("../ip2/assets/foodtop/lunch.jpg");
-  height: 210px;
-  text-align: center;
-  color: white;
-  width: 25%;
-  padding-top: 100px;
+    background-image: url("../ip2/assets/foodtop/lunch.jpg");
+    height: 210px;
+    text-align: center;
+    color: white;
+    width: 25%;
+    padding-top: 100px;
 }
+
 #dinner {
-  background-image: url("../ip2/assets/foodtop/dinner.jpg");
-  height: 210px;
-  text-align: center;
-  color: white;
-  width: 25%;
-  padding-top: 100px;
+    background-image: url("../ip2/assets/foodtop/dinner.jpg");
+    height: 210px;
+    text-align: center;
+    color: white;
+    width: 25%;
+    padding-top: 100px;
 }
+#breakfast:hover,
+#lunch:hover,
+#dinner:hover {
+  color: black;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
 .sec2 {
-  text-align: center;
-  margin: 0;
+    text-align: center;
+    margin: 0;
 }
 
 .sec3 {
-padding-top: 100px;
+    padding-top: 100px;
 }
+
 .sec4 {
-  padding-bottom: 100px;
-  padding-top: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
+
 .border {
-  border: 2px;
-  border-style: solid;
-  border-color: red;
-  color: red;
-  padding: 5px;
-  width: 200px;
-  text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+    color: red;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
 }
+
 #pic1 {
-  padding-left: 30px;
-  border-color: white;
-  border-style: solid;
-  border-width: 20px 0px 20px 0px;
-  box-shadow: 0px 0px 10px #000000;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 0px 0px 20px #000000;
+    border-width: 100%, 50%, 100%, 50%;
 }
+
 #pic2 {
-  /*border-color: white;
+    /*border-color: white;
   border-style: solid;
   border-width: 20px 0px 20px 0px;*/
-  box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 20px #000000;
 }
-#txt2 {
-padding-left: 200px;
-}
+
+/*#txt2 {
+    padding-left: 200px;
+}*/
+
 #txt3 {
-  text-align: center;
+    text-align: center;
 }
+
 .sec5 {
-  background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
-  border: 20px 40px 20px 40px;
-  color: red;
-  text-align: center;
-  padding-bottom: 100px;
+    background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+    border: 20px 40px 20px 40px;
+    color: red;
+    text-align: center;
+    padding-bottom: 100px;
 }
+
 .sec6 {
-  /*text-align: center;
+    /*text-align: center;
   box-shadow: 0px 0px 1px #000000;
   width: 1200px;*/
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.txt {
-  text-align: center;
-}
-.sec7 {
-  text-align: center;
-  background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
-  color: white;
-  height: 300px;
 
+.txt {
+    text-align: center;
 }
+
+.sec7 {
+    text-align: center;
+    background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
+    color: white;
+    height: 300px;
+}
+
 .sec8 {
-  text-align: center;
-  background-color: #F15A29;
-  color: white;
+    text-align: center;
+    background-color: #F15A29;
+    color: white;
 }
+
 .sub {
-  background-color: #F15A29;
+    background-color: #F15A29;
 }
-.jumbotron {
-  margin-bottom: 0px;
-  width: 100%
-}
+
+
 #Subscription {
-background-color:#fff;
+    background-color: #fff;
 }

@@ -88,98 +88,160 @@
 </html>-->
 <! DOCTYPE html>
 <html>
+
 <head>
-<title>Anita's Kitchen</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-<script src="js/jquery-3.1.1.js"></script>
-<script src="js/scripts.js"></script>
+    <title>Anita's Kitchen</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
+
 <body>
+  <div id="home">
   <div class="container sec1 jumbotron">
-  <img src="ip2/assets/logoBig.png" />
-<h2>We Provide The Best Food<br> At The <strong>Right Price</strong></h2>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+      <!-- <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">HOME</a></li>
+        <li><a href="#food-drinks">FOOD DRINKS</a></li>
+        <li><a href="#fastfood">FAST FOOD</a></li>
+        <li><a href="#for-delivery">DELIVERY</a></li>
+        </ul>
+      </div> -->
 </div>
-<div class="sec2 row">
-<table class="table1 col-sm-3">
-  <tr>
-    <td id="hhour">Happy Hour</td>
-  </tr>
-  <tr>
-    <td id="ptime">Party Time</td>
-  </tr>
-</table>
-<!--<div class="col-sm-3">Table</div>-->
-<div class="col-sm-3" id="breakfast"><p>Breakfast</p></div>
-<div class="col-sm-3" id="lunch"><p>Lunch</p></div>
-<div class="col-sm-3" id="dinner"><p>Dinner</p></div>
-</div>
-<div class="container sec3 row">
-  <div class= "col-sm-6" id="pic1">
-<img src="ip2/assets/fastFood1.jpg" />
-<img src="ip2/assets/fastFood2.jpg" />
-</div>
-<div class="col-sm-6" id="txt1">
-<h2>Fast Food</h2><h4>You'll love our delicious fast food</h4><p>Lorem ipsum dolor sit amet, consectetur adi
-  piscing elit. Integer et est a erat malesuada elementum eget ut ipsum. In eget metus risus. Aliquam nec tincidunt nulla. Or
-  civarius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed urna nisi, porta vel diam eget, dict
-  um hendrerit lorem. Nulla lobortis, felis id iaculis euismod, metus erat
-   tincidunt neque, in convallis metus orci in mi. Aenean sed feugiat sem. Proin urna magna, varius vitae nisi a, vestibulum faucibus magna. In iaculis non dui id luctus.</p>
-   <p class="border">VIEW GALLERY</P>
-   </div>
-   </div>
-   <div class="container sec4 row">
-<div class= "col-sm-6" id="txt2"><h2>Drinks</h2><h4>We also produce delicious drinks</h4><p>Lorem ipsum dolor sit amet, consectetur adipi
-  scing elit. Integer et est a erat malesuada elementum eget ut ipsum. In eget metus risus. Aliquam nec tincidunt nulla.
-  Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed urna nisi, porta vel diam eget, dictum h
-  endrerit lorem. Nulla lobortis, felis id iaculis euismod, metus erat tincidunt neque, in convalli
-  s metus orci in mi. Aenean sed feugiat sem. Proin urna magna, varius vitae nisi a, vestibulum faucibus magna. In iaculis non dui id luctus.</p>
-  <p class="border">VIEW GALLERY</P></div>
-    <div class= "col-sm-6" id="pic2"><img src="ip2/assets/drink1.jpg" /><img src="ip2/assets/drink2.jpg" /></div>
-</div>
-<div class="container sec5 jumbotron">
+</nav>
 
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#fastfood">Fast Food</a></li>
-    <li><a data-toggle="tab" href="#drinks">Drinks</a><li>
-      <li><a data-toggle="tab" href="#chicken">Chicken</a><li>
-        <li><a data-toggle="tab" href="#rice">Rice</a><li>
-  </ul>
-  <div class= "tab-content">
-  <div id="fastfood" class="tab-pane fade in active">
-  <div class="row">
-    <div class="col-sm-4"><img src="ip2/assets/fastfood/chickenBurger.jpg" /><p>Chicken Burger</p></div>
-<div class="col-sm-4"><img src="ip2/assets/fastfood/beefBurger.jpg" /><p>Beef Burger<p></div>
-<div class="col-sm-4"><img src="ip2/assets/fastfood/chickenPizza.jpg" /><p>Chicken Pizza</p></div>
-</div>
-</div>
-</div>
-</div>
+        <img src="ip2/assets/logoBig.png" />
+        <h2>We Provide The Best Food<br> At The <strong>Right Price</strong></h2>
+    </div>
 
-  <div class="container sec6 row">
-      <div class="col-sm-8">
-  <h4>Our Happy Customers</h4><p>George Richard</p><p>Great food! Menu is awesome, there foods are not only great but<br>also in the right price.
-    I'll highly recommend them :)<br><img src="ip2/assets/customers/p1.png" /><img src="ip2/assets/customers/p2.png" /><img src="ip2/assets/customers/p3.png" />
+
+
+    <div class="sec2 row">
+        <table class="table1 col-sm-3">
+            <tr>
+                <td id="hhour">Happy Hour</td>
+            </tr>
+            <tr>
+                <td id="ptime">Party Time</td>
+            </tr>
+        </table>
+        <!--<div class="col-sm-3">Table</div>-->
+        <div class="col-sm-3" id="breakfast">
+            <p>Breakfast</p>
+        </div>
+        <div class="col-sm-3" id="lunch">
+            <p>Lunch</p>
+        </div>
+        <div class="col-sm-3" id="dinner">
+            <p>Dinner</p>
+        </div>
+    </div>
   </div>
-<div class="col-sm-4">
-      <h4>About Menu</h4><p>We are menu a little team of 7 members.</p><p>Lorem ipsum dolor sit amet, consectetur adi
-      piscing elit. Integer et est a erat malesuada elementum eget ut ipsum. In eget metus risus. Aliquam nec tincidunt nulla. Or
-      civarius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed urna nisi, porta vel diam eget, dict
-      um hendrerit lorem. Nulla lobortis, felis id iaculis euismod, metus erat
-       tincidunt neque, in convallis metus orci in mi.</p>
-     </div>
- </div>
-     <div class="container sec7 jumbotron">
-       <h4>Get our daily food items delivered to your email</h4>
-       <form class="form-inline">
-         <div class="form-group">
-           <input type="text" class="form-control" id="Subscription" placeholder="Your Email">
-         </div>
-         <button type="submit" class="btn btn-warning">Subscribe</button>
-       </form>
-     </div>
-       <div class="container sec8 jumbotron">
-       <h2><img src="ip2/assets/footerlogos/logo_white.png" />MENU</h2><p>Thats What We Are</p><br><img src="ip2/assets/footerlogos/facebook.png" /><img src="ip2/assets/footerlogos/twitter.png" /><img src="ip2/assets/footerlogos/pinterest.png" />
-       <p>2016 Menu Restaurant</p></div>
-  </body>
+    <div id="food-drinks">
+
+
+    <div class="container sec3 row">
+        <div class="col-sm-6" id="pic1">
+            <img src="ip2/assets/fastFood1.jpg" />
+            <img src="ip2/assets/fastFood2.jpg" />
+        </div>
+        <div class="col-sm-6" id="txt1">
+            <h2>Fast Food</h2>
+            <h4>You'll love our delicious fast food</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adi piscing elit. Integer et est a erat malesuada elementum eget ut ipsum. In eget metus risus. Aliquam nec tincidunt nulla. Or civarius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Sed urna nisi, porta vel diam eget, dict um hendrerit lorem. Nulla lobortis, felis id iaculis euismod, metus erat tincidunt neque, in convallis metus orci in mi. Aenean sed feugiat sem. Proin urna magna, varius vitae nisi a, vestibulum
+                faucibus magna. In iaculis non dui id luctus.</p>
+            <p class="border">VIEW GALLERY</P>
+        </div>
+    </div>
+    <div class="container sec4 row">
+        <div class="col-sm-6" id="txt2">
+            <h2>Drinks</h2>
+            <h4>We also produce delicious drinks</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit. Integer et est a erat malesuada elementum eget ut ipsum. In eget metus risus. Aliquam nec tincidunt nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Sed urna nisi, porta vel diam eget, dictum h endrerit lorem. Nulla lobortis, felis id iaculis euismod, metus erat tincidunt neque, in convalli s metus orci in mi. Aenean sed feugiat sem. Proin urna magna, varius vitae nisi a, vestibulum
+                faucibus magna. In iaculis non dui id luctus.</p>
+            <p class="border">VIEW GALLERY</P>
+        </div>
+        <div class="col-sm-6" id="pic2"><img src="ip2/assets/drink1.jpg" /><img src="ip2/assets/drink2.jpg" /></div>
+    </div>
+    </div>
+    <div id="fastfood">
+
+
+    <div class="container sec5 jumbotron">
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#fastfood">Fast Food</a></li>
+            <li><a data-toggle="tab" href="#drinks">Drinks</a>
+                <li>
+                    <li><a data-toggle="tab" href="#chicken">Chicken</a>
+                        <li>
+                            <li><a data-toggle="tab" href="#rice">Rice</a>
+                                <li>
+        </ul>
+        <div class="tab-content">
+            <div id="fastfood" class="tab-pane fade in active">
+                <div class="row">
+                    <div class="col-sm-4"><img src="ip2/assets/fastfood/chickenBurger.jpg" />
+                        <p>Chicken Burger</p>
+                    </div>
+                    <div class="col-sm-4"><img src="ip2/assets/fastfood/beefBurger.jpg" />
+                        <p>Beef Burger
+                            <p>
+                    </div>
+                    <div class="col-sm-4"><img src="ip2/assets/fastfood/chickenPizza.jpg" />
+                        <p>Chicken Pizza</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container sec6 row">
+        <div class="col-sm-8">
+            <h4>Our Happy Customers</h4>
+            <p>George Richard</p>
+            <p>Great food! Menu is awesome, there foods are not only great but<br>also in the right price. I'll highly recommend them :)<br><img src="ip2/assets/customers/p1.png" /><img src="ip2/assets/customers/p2.png" /><img src="ip2/assets/customers/p3.png"
+                />
+        </div>
+        <div class="col-sm-4">
+            <h4>About Menu</h4>
+            <p>We are menu a little team of 7 members.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adi piscing elit. Integer et est a erat malesuada elementum eget ut ipsum. In eget metus risus. Aliquam nec tincidunt nulla. Or civarius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Sed urna nisi, porta vel diam eget, dict um hendrerit lorem. Nulla lobortis, felis id iaculis euismod, metus erat tincidunt neque, in convallis metus orci in mi.</p>
+        </div>
+    </div>
+    </div>
+    <div id="for-delivery">
+    <div class="container sec7 jumbotron">
+        <h4>Get our daily food items delivered to your email</h4>
+        <form class="form-inline">
+            <div class="form-group">
+                <input type="text" class="form-control" id="Subscription" placeholder="Your Email">
+            </div>
+            <button type="submit" class="btn btn-warning">Subscribe</button>
+        </form>
+    </div>
+    <div class="container sec8 jumbotron">
+        <h2><img src="ip2/assets/footerlogos/logo_white.png" />MENU</h2>
+        <p>Thats What We Are</p><br><img src="ip2/assets/footerlogos/facebook.png" /><img src="ip2/assets/footerlogos/twitter.png" /><img src="ip2/assets/footerlogos/pinterest.png" />
+        <p>2016 Menu Restaurant</p>
+    </div>
+    </div>
+</body>
+
 </html>

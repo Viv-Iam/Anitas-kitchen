@@ -39,18 +39,60 @@
 * {
   margin: 0;
   padding: 0;
-  align-items: center;
 }
 .sec1 {
 text-align: center;/*why did text move with logo*/
 background-image: url("../ip2/assets/backgrounds/landing.jpg");
-background-position: center;
 color: white;
+width: 100%
+}
+.table1{
+  border-style: hidden;
+  clear: none;
+  height: 210px;
+  width: 25%;
+}
+#hhour {
+  background-color: #eee;
+  text-align: center;
 
+}
+#ptime {
+  border-top: 2px;
+  border-style: hidden;
+  background-color: #F15A29;
+  text-align: center;
+
+}
+#breakfast {
+  background-image: url("../ip2/assets/foodtop/breakfast.jpg");
+  height: 210px;
+  text-align: center;
+  color: white;
+  width: 25%;
+  padding-top: 100px;
+}
+#lunch {
+  background-image: url("../ip2/assets/foodtop/lunch.jpg");
+  height: 210px;
+  text-align: center;
+  color: white;
+  width: 25%;
+  padding-top: 100px;
+}
+#dinner {
+  background-image: url("../ip2/assets/foodtop/dinner.jpg");
+  height: 210px;
+  text-align: center;
+  color: white;
+  width: 25%;
+  padding-top: 100px;
 }
 .sec2 {
   text-align: center;
+  margin: 0;
 }
+
 .sec3 {
 padding-top: 100px;
 }
@@ -68,19 +110,17 @@ padding-top: 100px;
   text-align: center;
 }
 #pic1 {
+  padding-left: 30px;
   border-color: white;
   border-style: solid;
-  border-width: 20px 5px 20px 1px;
+  border-width: 20px 0px 20px 0px;
   box-shadow: 0px 0px 10px #000000;
-  padding-left: 50px;
 }
 #pic2 {
-  border-color: white;
+  /*border-color: white;
   border-style: solid;
-  border-width: 20px 5px 20px 10px;
+  border-width: 20px 0px 20px 0px;*/
   box-shadow: 0px 0px 10px #000000;
-  padding-left: 50px;
-
 }
 #txt2 {
 padding-left: 200px;
@@ -90,12 +130,18 @@ padding-left: 200px;
 }
 .sec5 {
   background-image: url("../ip2/assets/backgrounds/foodsBg.jpg");
+  border: 20px 40px 20px 40px;
+  color: red;
+  text-align: center;
+  padding-bottom: 100px;
 }
 .sec6 {
+  /*text-align: center;
+  box-shadow: 0px 0px 1px #000000;
+  width: 1200px;*/
   text-align: center;
-  border: 1px;
-  outline-style: outset;
-  outline-color: grey;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .txt {
   text-align: center;
@@ -105,6 +151,7 @@ padding-left: 200px;
   background-image: url("../ip2/assets/backgrounds/subscribe.jpg");
   color: white;
   height: 300px;
+
 }
 .sec8 {
   text-align: center;
@@ -116,4 +163,8 @@ padding-left: 200px;
 }
 .jumbotron {
   margin-bottom: 0px;
+  width: 100%
+}
+#Subscription {
+background-color:#fff;
 }

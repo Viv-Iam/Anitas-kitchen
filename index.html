@@ -89,22 +89,30 @@
 <! DOCTYPE html>
 <html>
 <head>
-<title></title>
-<link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+<title>Anita's Kitchen</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
-<script src="jquery-3.1.1/jquery-3.1.1.js"></script>
+<script src="js/jquery-3.1.1.js"></script>
 <script src="js/scripts.js"></script>
 </head>
 <body>
   <div class="container sec1 jumbotron">
   <img src="ip2/assets/logoBig.png" />
-<h1>We Provide The Best Food<br> At The <strong>Right Price</strong></h1>
+<h2>We Provide The Best Food<br> At The <strong>Right Price</strong></h2>
 </div>
-<div class="container sec2 row">
-<div class="col-sm-3">Table</div>
-<div class="col-sm-3"><img src="ip2/assets/foodtop/breakfast.jpg" /></div>
-<div class="col-sm-3"><img src="ip2/assets/foodtop/lunch.jpg" /></div>
-<div class="col-sm-3"><img src="ip2/assets/foodtop/dinner.jpg" /></div>
+<div class="sec2 row">
+<table class="table1 col-sm-3">
+  <tr>
+    <td id="hhour">Happy Hour</td>
+  </tr>
+  <tr>
+    <td id="ptime">Party Time</td>
+  </tr>
+</table>
+<!--<div class="col-sm-3">Table</div>-->
+<div class="col-sm-3" id="breakfast"><p>Breakfast</p></div>
+<div class="col-sm-3" id="lunch"><p>Lunch</p></div>
+<div class="col-sm-3" id="dinner"><p>Dinner</p></div>
 </div>
 <div class="container sec3 row">
   <div class= "col-sm-6" id="pic1">
@@ -130,13 +138,24 @@
     <div class= "col-sm-6" id="pic2"><img src="ip2/assets/drink1.jpg" /><img src="ip2/assets/drink2.jpg" /></div>
 </div>
 <div class="container sec5 jumbotron">
-  <p>Fast Food</p><p>Drinks</p><p>Chicken</p><p><p>Rice</p>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#fastfood">Fast Food</a></li>
+    <li><a data-toggle="tab" href="#drinks">Drinks</a><li>
+      <li><a data-toggle="tab" href="#chicken">Chicken</a><li>
+        <li><a data-toggle="tab" href="#rice">Rice</a><li>
+  </ul>
+  <div class= "tab-content">
+  <div id="fastfood" class="tab-pane fade in active">
   <div class="row">
-  <div class="col-sm-4"><img src="ip2/assets/fastfood/chickenBurger.jpg" /><p>Chicken Burger</p></div>
-  <div class="col-sm-4"><img src="ip2/assets/fastfood/beefBurger.jpg" /><p>Beef Burger<p></div>
-    <div class="col-sm-4"><img src="ip2/assets/fastfood/chickenPizza.jpg" /><p>Chicken Pizza</p></div>
+    <div class="col-sm-4"><img src="ip2/assets/fastfood/chickenBurger.jpg" /><p>Chicken Burger</p></div>
+<div class="col-sm-4"><img src="ip2/assets/fastfood/beefBurger.jpg" /><p>Beef Burger<p></div>
+<div class="col-sm-4"><img src="ip2/assets/fastfood/chickenPizza.jpg" /><p>Chicken Pizza</p></div>
 </div>
 </div>
+</div>
+</div>
+
   <div class="container sec6 row">
       <div class="col-sm-8">
   <h4>Our Happy Customers</h4><p>George Richard</p><p>Great food! Menu is awesome, there foods are not only great but<br>also in the right price.
@@ -154,14 +173,13 @@
        <h4>Get our daily food items delivered to your email</h4>
        <form class="form-inline">
          <div class="form-group">
-           <label for="email">Your email</label>
-           <input type="email" class="form-control" id="email">
+           <input type="text" class="form-control" id="Subscription" placeholder="Your Email">
          </div>
-         <button type="submit" class="btn btn-default sub">Subscribe</button>
+         <button type="submit" class="btn btn-warning">Subscribe</button>
        </form>
      </div>
        <div class="container sec8 jumbotron">
-       <img src="ip2/assets/footerlogos/logo_white.png" /><h2>MENU</h2><p>Thats What We Are</p><br><img src="ip2/assets/footerlogos/facebook.png" /><img src="ip2/assets/footerlogos/twitter.png" /><img src="ip2/assets/footerlogos/pinterest.png" />
+       <h2><img src="ip2/assets/footerlogos/logo_white.png" />MENU</h2><p>Thats What We Are</p><br><img src="ip2/assets/footerlogos/facebook.png" /><img src="ip2/assets/footerlogos/twitter.png" /><img src="ip2/assets/footerlogos/pinterest.png" />
        <p>2016 Menu Restaurant</p></div>
   </body>
 </html>
